@@ -89,9 +89,9 @@ function start(){
 
  function reset(){
     clearInterval(watchinterval)
-   // milliSeconds = 0
-    //seconds = 0
-    //minutes = 0
+    milliSeconds = 0
+    seconds = 0
+    minutes = 0
     min_html.innerText = 0
     sec_html.innerText = 0
     milisec_html.innerText = 0
