@@ -9,38 +9,39 @@
     
     <link rel="stylesheet" href="style.css">
 </head>
-<div class="container text-center">
-    <h1 class="text-white py-3" >Baqra Eid Count Down</h1>
+<div class="container text-center py-5  ">
+    <h1 class="text-white bg-success py-5" >Baqra Eid Count Down</h1>
     <div class="row py-5 px-5">
         
-        <div  class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Days</h2><h3 id="Days">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Hours</h2><h3 id="Hours">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Minutes</h2><h3 id="Minutes">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Second</h2><h3 id="Second">00</h3></div>
+        <div  class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Days</h2><h3 id="Days">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Hours</h2><h3 id="Hours">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Minutes</h2><h3 id="Minutes">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Second</h2><h3 id="Second">00</h3></div>
     </div>
-    <h1 class="text-white py-5 " >Baqra Eid Count Down in Days</h1>
+    <h1 class="text-white bg-success py-5 " >Baqra Eid Count Down in a Day</h1>
     <div class="row py-5 px-5">
         
-        <div  class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Days</h2><h3 id="Days-24">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Hours</h2><h3 id="Hours-24">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Minutes</h2><h3 id="Minutes-24">00</h3></div>
-        <div class="box col-lg-3  col-md-3 col-sm-6 col-12 text-white border"><h2>Second</h2><h3 id="Second-24">00</h3></div>
+        <div  class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Days</h2><h3 id="Days-24">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Hours</h2><h3 id="Hours-24">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Minutes</h2><h3 id="Minutes-24">00</h3></div>
+        <div class="col-lg-3  col-md-3 col-sm-6 col-12 text-white border bg-dark"><h2>Second</h2><h3 id="Second-24">00</h3></div>
     </div>
 </div>
-<div class="container py-5 text-center">
+<div class="container py-2 text-center">
+    <h1 class="bg-warning text-dark py-5 " >Stop Watch</h1>
     <div class="row  px-5 " >
         <div  class="col-lg-12  col-md-12 col-sm-12 col-12 text-white  text-center py-5">
         <div class="row">
-            <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Minutes</h2><h3 id="min" class="text-danger">00</h3></div>
-        <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Seconds</h2><h3 id="sec" class="text-danger">00</h3></div>
-        <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Miliseconds</h2><h3 id="milisec" class="text-danger">00</h3></div>
+            <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Minutes</h2><h3 id="min" class="text-warning">00</h3></div>
+        <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Seconds</h2><h3 id="sec" class="text-warning">00</h3></div>
+        <div  class="col-lg-4  col-md-4 col-sm-6 col-12 bg-dark text-white border  text-center"><h2>Miliseconds</h2><h3 id="milisec" class="text-warning">00</h3></div>
         </div>
         
        </div>
         <div  class="col-lg-12  col-md-12 col-sm-12 col-12 text-white   text-center py-5">
-            <button class="btn btn-dark btn-lg" id="startBtn" onclick="start()" >Start</button>
-            <button class="btn btn-dark btn-lg" onclick="stop()" >Stop</button>
-            <button class="btn btn-dark btn-lg" onclick="reset()" >Reset</button> 
+            <button class="btn btn-warning btn-lg text-white" id="startBtn" onclick="start()" >Start</button>
+            <button class="btn btn-warning btn-lg text-white" onclick="stop()" >Stop</button>
+            <button class="btn btn-warning btn-lg text-white" onclick="reset()" >Reset</button> 
         </div>
     </div>
 </div>
